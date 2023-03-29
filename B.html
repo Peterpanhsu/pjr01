@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/style.css">
+    <style>
+        html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+header{
+    width: 780px;
+    height: 110px;
+    color:rgb(18, 19, 19);
+    padding-left:  10px;
+    padding-right: 10px;
+    background-color: rgb(124, 15, 167);
+}
+h1 {
+    color:rgba(233, 229, 20, 0.979);
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+.nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+ font-size: 2rem;
+ font-weight: 900;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul  li a:link, nav ul li a:active, nav ul li a:visited{
+    color: rgb(37, 63, 45);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    /*text-decoration; underline;*/
+    color:aliceblue
+}
+.content-area{
+    display: flex;
+}  
+  section p {
+    color: rgb(91, 4, 253);
+  }
+  article{
+    flex:2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+}
+  .article-body {
+    color:darkblue;
+    background-color: lightgray;
+  }
+  aside{
+    flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+footer{
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    background: #ecf009;
+} 
+  
+  #footer-p {
+    color: darkgray;
+    text-decoration: underline;
+  } 
+    </style>
+</head>
+<body>
+    <header>
+       <h1>NBA西區球隊</h1>
+       <nav>
+        <ul class="nav">
+   <li class="nav-list"><a href="index.html">洛杉磯湖人</a></li>
+   <li class="nav-list"><a href="B.html">洛杉磯快艇</a></li>
+   <li class="nav-list"><a href="C.html">猶他爵士</a></li>
+       </ul>
+</nav>
+</header>
+<div class="content-area">
+ <article>
+<section>
+        <h2>洛杉磯快艇介紹</h2>
+        <div class="article-body">
+        <p>洛杉磯快艇（英語：Los Angeles Clippers），是一支位於美國加利福尼亞州洛杉磯的NBA籃球隊，分屬於西區的太平洋組，主場為加密貨幣網體育館，預計2024年將遷往英格伍德。
+            <br>球隊在1970年成立於水牛城，1978年遷至聖地牙哥，1984年再遷至現今的洛杉磯。2014年8月13日，前微軟CEO史蒂夫·鮑爾默成功收購洛杉磯快艇，成為球隊新任老闆。</p></div>
+        <img src="images/c.png",width="300"alt="洛杉磯快艇"/>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GqqNAl2rQso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    </article> 
+ <aside>
+    <h3>球星介紹</h3>
+    <ul>
+        <li><a href="https://www.msn.com/zh-tw/sports/nba/russell-westbrook/player/sp-id-30301000000329830">	羅素·威斯布魯克</a></li>
+        <li><a href="https://www.msn.com/zh-tw/sports/nba/paul-george/player/sp-id-30301000000469218">	保羅·喬治</a></li>
+    </ul>
+ </aside> 
+</div>      
+    <footer>
+        <p>&copy; 2023-this is the footer of the websites. </p>
+    </footer>
+</body>
+</html>

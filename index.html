@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/style.css" >
+    <style>
+        html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+header{
+    width: 780px;
+    height: 110px;
+    color:rgb(18, 19, 19);
+    padding-left:  10px;
+    padding-right: 10px;
+    background-color: rgb(124, 15, 167);
+}
+h1 {
+    color:rgba(233, 229, 20, 0.979);
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+.nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+ font-size: 2rem;
+ font-weight: 900;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul  li a:link, nav ul li a:active, nav ul li a:visited{
+    color: rgb(37, 63, 45);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    /*text-decoration; underline;*/
+    color:aliceblue
+}
+.content-area{
+    display: flex;
+}  
+  section p {
+    color: rgb(91, 4, 253);
+  }
+  article{
+    flex:2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+}
+  .article-body {
+    color:darkblue;
+    background-color: lightgray;
+  }
+  aside{
+    flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+footer{
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    background: #ecf009;
+} 
+  
+  #footer-p {
+    color: darkgray;
+    text-decoration: underline;
+  } 
+    </style>
+</head>
+<body>
+    <header>
+       <h1 >NBA西區球隊</h1>
+       <nav>
+        <ul class="nav">
+   <li class="nav-list"><a href="index.html">洛杉磯湖人</a></li>
+   <li class="nav-list"><a href="B.html">洛杉磯快艇</a></li>
+   <li class="nav-list"><a href="C.html">猶他爵士</a></li>
+       </ul>
+</nav>
+</header>
+<div class="content-area">
+<article>
+<section>
+        <h2>洛杉磯湖人介紹</h2>
+        <div class="article-body">
+        <p>洛杉磯湖人（英語：Los Angeles Lakers，縮寫：LAL）是一支位於美國加利福尼亞州洛杉磯的職業籃球隊，隸屬於NBA西區太平洋組，主場為加密貨幣網體育館。
+            <br>球隊前身為「明尼亞波利斯湖人」（Minneapolis Lakers）。至今共奪得17次總冠軍，與東區球隊波士頓塞爾提克並列NBA第一。</p></div>
+        <img src="images/l.png",width="300"alt="洛杉磯湖人"/>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ei5asySQVo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+</article>
+<aside>  
+    <h2>球星介紹</h2>
+    <ul>
+        <li><a href="https://www.msn.com/zh-tw/sports/nba/lebron-james/player/sp-id-30301000000214152">	勒布朗·詹姆斯</a></li>
+        <li><a href="https://www.msn.com/zh-tw/sports/nba/anthony-davis/player/sp-id-30301000000603096">安東尼·戴維斯</a></li>
+    </ul>
+ </aside>
+</div>     
+    <footer>
+        <h3>&copy; 2023-this is the footer of the websites. </h3>
+    </footer>
+</body>
+</html>
